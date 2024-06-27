@@ -38,7 +38,7 @@ class YukkiBot(Client):
         try:
             await self.send_message(
                 config.LOG_GROUP_ID,
-                text=f"<u><b>{self.mention} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :</b><u>\n\nɪᴅ : <code>{self.id}</code>\nɴᴀᴍᴇ : {self.name}\nᴜsᴇʀɴᴀᴍᴇ : @{self.username}",
+                text=f"<u><b>» {self.mention} 𝙰𝙻𝙴𝙼 𝙼𝚄̈𝚉𝙸̇𝙺 𝙱𝙰𝚂̧𝙻𝙰𝙳𝙸 :</b><u>\n\n𝙸𝙳 : <code>{self.id}</code>\n𝙰𝙳𝙸 : {self.name}\n𝙺𝚄𝙻𝙻𝙰𝙽𝙸𝙲𝙸 𝙰𝙳𝙸 : @{self.username}",
             )
         except:
             LOGGER(__name__).error(
@@ -79,4 +79,4 @@ class YukkiBot(Client):
             self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.name = get_me.first_name
-        LOGGER(__name__).info(f"MusicBot Started as {self.name}")
+        LOGGER(__name__).info(f"𝙰𝙻𝙴𝙼 𝙼𝚄̈𝚉𝙸̇𝙺 𝙱𝙰𝚂̧𝙻𝙰𝙳𝙸 as {self.name}")
