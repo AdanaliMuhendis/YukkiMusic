@@ -21,20 +21,20 @@ STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAY_COMMAND : ["play", "oynat", "çal", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
 PLAYMODE_COMMAND : ["playmode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
 
 #Playlists Command
 PLAYLIST_COMMAND : ["playlist"]
-DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
-ADDPLAYLIST_COMMAND : ["addplaylist"]
+DELETEPLAYLIST_COMMAND : ["deleteplaylist", "listesil"]
+ADDPLAYLIST_COMMAND : ["addplaylist", "ekle"]
 
 
 # Tools
-QUEUE_COMMAND : ["queue","cqueue"]
-SONG_COMMAND : ["song", "video"]
+QUEUE_COMMAND : ["queue","cqueue", "liste"]
+SONG_COMMAND : ["song", "video", "bul", "indir"]
 LYRICS_COMMAND : ["lyrics"]
 
 
@@ -42,23 +42,23 @@ LYRICS_COMMAND : ["lyrics"]
 AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
+PAUSE_COMMAND : ["pause", "cpause", "dur"]
+RESUME_COMMAND : ["resume", "cresume", "devam"]
 MUTE_COMMAND : ["mute", "cmute"]
 UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend", "son", "bitir"]
+SKIP_COMMAND : ["skip", "cskip", "atla", "lehaaa"]
+SHUFFLE_COMMAND : ["shuffle", "cshuffle", "kar"]
+LOOP_COMMAND : ["loop", "cloop", "döngü", "tekrar"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-REBOOT_COMMAND : ["reboot"]
+REBOOT_COMMAND : ["alemyeniden"]
 
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+ADDSUDO_COMMAND : ["alemci"]
+DELSUDO_COMMAND : ["alemsiz"]
+SUDOUSERS_COMMAND : ["alemliler"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast"]
@@ -87,7 +87,7 @@ VARS_COMMAND : ["vars", "config"]
 
 #Basic Bot Commands
 UPDATE_COMMAND : ["update","gitpull"]
-RESTART_COMMAND : ["restart"]
+RESTART_COMMAND : ["alembaşla"]
 AUTOEND_COMMAND : ["autoend"]
 
 #Private Bot Mode
