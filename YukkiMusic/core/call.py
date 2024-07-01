@@ -334,7 +334,7 @@ class Call(PyTgCalls):
                 )
             except Exception as e:
                 raise AssistantErr(
-                    "**ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ғᴏᴜɴᴅ**\n\nᴩʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ."
+                    "**Aktif Sesli Sohbet Bulunamadı**\n\nLütfen Görüntülü Sohbeti BAşlatınız."
                 )
         except Exception as e:
             if "phone.CreateGroupCall" in str(e):
@@ -349,7 +349,7 @@ class Call(PyTgCalls):
                     )
                 except Exception:
                     raise AssistantErr(
-                        f"**» ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ ғᴏᴜɴᴅ.**\n\nᴩʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ."
+                        f"**Aktif Sesli Sohbet Bulunamadı**\n\nLütfen Görüntülü Sohbeti BAşlatınız."
                     )
 
         except AlreadyJoinedError:
