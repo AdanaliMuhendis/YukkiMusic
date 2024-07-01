@@ -134,7 +134,7 @@ def telegram_markup(_, chat_id):
 
 ## By Anon
 close_keyboard = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="〆 ᴄʟᴏsᴇ 〆", callback_data="close")]]
+    [[InlineKeyboardButton(text="🗑 Kapat", callback_data="close")]]
 )
 
 ## Search Query Inline
@@ -242,6 +242,6 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="♏", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="📴", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [InlineKeyboardButton(text="〆 ᴄʟᴏsᴇ 〆", callback_data="close")],
+        [InlineKeyboardButton(text="🗑 Kapat", callback_data="close")],
     ]
     return buttons
