@@ -12,7 +12,7 @@ If you're using or forking this project, please show your support by starring th
 ### Deploy on Heroku
 Get started quickly by deploying to Heroku with just one click:
 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/TheTeamVivek/YukkiMusic">
+<a href="https://dashboard.heroku.com/new?template=https://github.com/AdanaliMuhendis/YukkiMusic">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/>
 </a>
 
@@ -24,7 +24,7 @@ Get started quickly by deploying to Heroku with just one click:
 
   - Activate Virtual Env: `source .venv/bin/activate`
 
-  - Clone the Repository: `git clone https://github.com/TheTeamVivek/YukkiMusic && cd YukkiMusic`
+  - Clone the Repository: `git clone https://github.com/AdanaliMuhendis/YukkiMusic && cd YukkiMusic`
 
   - Install Python Requirements: `pip install -r requirements.txt`
 
